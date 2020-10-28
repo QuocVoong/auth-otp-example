@@ -1,0 +1,23 @@
+{
+  "name": "auth-otp-example",
+  "version": "1.0.0",
+  "description": "authentication example",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development NODE_PATH=src nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "dotenv-flow": "^3.1.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^8.0.8",
+    "mongoose": "^5.9.14",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
